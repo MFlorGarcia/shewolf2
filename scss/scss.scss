@@ -1,6 +1,7 @@
 .fondo{
     background-color:#0f1626 ;
 }
+/* Estilos Menú */
 
 /* Estilos títulos */
 h1{
@@ -157,28 +158,7 @@ ul li{
     left: 840px
 }
 
-/* estilos en menu */
-.menuestilo {
-    display: flex;
-    width: 18%;
-    position: relative;
-  }
 
-  a {
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    color: white;
-    padding: 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif;
-    &:hover {
-        font-size: 24px;
-        color: rgb(247, 89, 115);
-        transition: all 2s
-    }
-  }
 
         
   
