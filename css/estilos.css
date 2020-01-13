@@ -1,0 +1,182 @@
+.fondo{
+    background-image: url(../Fondo3.png);
+}
+
+/* Estilos títulos */
+h1{
+    color: whitesmoke;
+    font-family: 'Pacifico';
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(247, 89, 115);
+    font-family: 'Acme';
+    font-size: 25px;
+    text-align: center;
+}
+
+.grilla { 
+    display: grid;
+    grid-template-areas: 
+     "header header header"
+     "main main main"
+     "footer footer footer";
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 80px auto 80px;
+    }
+
+
+
+
+.parrafo{
+    color: rgb(247, 89, 115);
+    font-family: 'Acme';
+    font-size: 35px;
+    margin-top: 200 px;
+
+
+}
+
+.padreFlex{
+    display:flex;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 1100px;
+       
+   
+  }
+
+.logo{ 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+ 
+header{
+    position: relative;
+}
+
+.imagen{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.animacionP{
+    transform: translate(25px);
+    
+}
+footer{
+    background-color: whitesmoke;
+    font-family: "Acme";
+    color: rgb(247, 89, 115) ;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+.colorNaranja{
+    color:orangered
+}
+
+ul li{
+    color:cyan
+}
+
+.tamañoTitulo{
+    font-size:40px;
+}
+
+.impact{
+    font-family: Impact, sans-serif;
+}
+
+.georgia{
+    font-family: Georgia, serif;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.espaciado{
+    letter-spacing: 2px;
+}
+
+.fondoAmarillo{
+    background-color: #FEFAC2;
+}
+
+.fondoCoral{
+    background-color: #FE6960;
+}
+
+
+
+.padreFlex{
+    display: flex;
+
+}
+
+.video{
+    position: relative;
+    left: 840px
+}
+
+/* estilos en menu */
+.menuestilo {
+    display: flex ;
+    width: 18%;
+    position: relative;
+  }
+
+  a {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(248, 160, 156);
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  /* estilos en productos */
+
+  .estiloProductos{
+      display: flex;
+
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: white;
+      border: 1px rgb(248, 160, 156);
+      padding: 5px; 
+  }
+
+  .prodComentario{
+      overflow: inherit;
+  }
+  .zoom {
+    width: 100px; height: 100px;
+    transition: all 2s;       
+ }
+ .zoom:hover {
+    height: 20px; width: 200px;
+    padding: 10px;
+    background-color: whitesmoke;      
+ }
+ 
+ 
