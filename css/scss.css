@@ -1,1 +1,217 @@
-﻿.fondo{background-image:url(../Fondo3.png)}h1{color:whitesmoke;font-family:'Pacifico';font-size:50px;text-align:center}h2{color:#f75973;font-family:'Acme';font-size:25px;text-align:center}.grilla{display:grid;grid-template-areas:"header header header" "main main main" "footer footer footer";grid-template-columns:repeat(12, 1fr);grid-template-rows:80px auto 80px}.grillaServ{display:grid;grid-template-columns:auto auto auto;grid-column-gap:1em;grid-row-gap:1em}.grillaServ div{font-size:18px;color:whitesmoke;font-family:'Acme';background-color:#f75973}.parrafo{color:#f75973;font-family:'Acme';font-size:35px;margin-top:200 px}.padreFlex{display:flex;position:absolute;justify-content:flex-end;margin-left:1100px}.logo{position:absolute;top:20px;left:20px}header{position:relative}main{justify-content:center;margin-left:200px}.imagen{display:flex;justify-content:flex-end}.animacionP{transform:translate(25px)}footer{background-color:whitesmoke;font-family:"Acme";color:#f75973;font-size:20px;margin-top:20px;text-align:center;padding:20px}.colorNaranja{color:orangered}ul li{color:cyan}.tamañoTitulo{font-size:40px}.impact{font-family:Impact, sans-serif}.georgia{font-family:Georgia, serif}.centrado{text-align:center}.negrita{font-weight:bold}.espaciado{letter-spacing:2px}.fondoAmarillo{background-color:#FEFAC2}.fondoCoral{background-color:#FE6960}.padreFlex{display:flex}.video{position:relative;left:840px}.menuestilo{display:flex;width:18%;position:relative}a{font-size:14px;text-align:center;display:block;color:white;padding:10px;text-transform:uppercase;text-decoration:none;font-family:sans-serif}a:hover{font-size:24px;color:#f75973;transition:all 2s}.estiloProductos{display:flex;flex-direction:row;flex-wrap:wrap;background-color:white;border:1px #f8a09c;padding:5px}.zoom{width:100px;height:100px;transition:all 2s}.zoom:hover{height:20px;width:200px;background-color:whitesmoke}
+@charset "UTF-8";
+/* line 1, ../../Desktop/shewolf2/scss/scss.scss */
+.fondo {
+  background-color: #0f1626;
+}
+
+/* Estilos títulos */
+/* line 6, ../../Desktop/shewolf2/scss/scss.scss */
+h1 {
+  color: whitesmoke;
+  font-family: 'Pacifico';
+  font-size: 50px;
+  text-align: center;
+}
+
+/* line 17, ../../Desktop/shewolf2/scss/scss.scss */
+h2 {
+  color: #f75973;
+  font-family: 'Acme';
+  font-size: 25px;
+  text-align: center;
+}
+
+/* line 24, ../../Desktop/shewolf2/scss/scss.scss */
+.grilla {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px auto 80px;
+}
+
+/* line 33, ../../Desktop/shewolf2/scss/scss.scss */
+.grillaServ {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+/* line 38, ../../Desktop/shewolf2/scss/scss.scss */
+.grillaServ div {
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: 'Acme';
+  background-color: #f75973;
+}
+
+/* line 51, ../../Desktop/shewolf2/scss/scss.scss */
+.parrafo {
+  color: #f75973;
+  font-family: 'Acme';
+  font-size: 35px;
+  margin-top: 200 px;
+}
+
+/* line 60, ../../Desktop/shewolf2/scss/scss.scss */
+.padreFlex {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  margin-left: 1100px;
+}
+
+/* line 69, ../../Desktop/shewolf2/scss/scss.scss */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 75, ../../Desktop/shewolf2/scss/scss.scss */
+header {
+  position: relative;
+}
+
+/* line 79, ../../Desktop/shewolf2/scss/scss.scss */
+main {
+  justify-content: center;
+  margin-left: 200px;
+}
+
+/* line 84, ../../Desktop/shewolf2/scss/scss.scss */
+.imagen {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 90, ../../Desktop/shewolf2/scss/scss.scss */
+.animacionP {
+  transform: translate(25px);
+}
+
+/* line 94, ../../Desktop/shewolf2/scss/scss.scss */
+footer {
+  background-color: whitesmoke;
+  font-family: "Acme";
+  color: #f75973;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* line 108, ../../Desktop/shewolf2/scss/scss.scss */
+.colorNaranja {
+  color: orangered;
+}
+
+/* line 112, ../../Desktop/shewolf2/scss/scss.scss */
+ul li {
+  color: cyan;
+}
+
+/* line 116, ../../Desktop/shewolf2/scss/scss.scss */
+.tamañoTitulo {
+  font-size: 40px;
+}
+
+/* line 120, ../../Desktop/shewolf2/scss/scss.scss */
+.impact {
+  font-family: Impact, sans-serif;
+}
+
+/* line 124, ../../Desktop/shewolf2/scss/scss.scss */
+.georgia {
+  font-family: Georgia, serif;
+}
+
+/* line 128, ../../Desktop/shewolf2/scss/scss.scss */
+.centrado {
+  text-align: center;
+}
+
+/* line 132, ../../Desktop/shewolf2/scss/scss.scss */
+.negrita {
+  font-weight: bold;
+}
+
+/* line 136, ../../Desktop/shewolf2/scss/scss.scss */
+.espaciado {
+  letter-spacing: 2px;
+}
+
+/* line 140, ../../Desktop/shewolf2/scss/scss.scss */
+.fondoAmarillo {
+  background-color: #FEFAC2;
+}
+
+/* line 144, ../../Desktop/shewolf2/scss/scss.scss */
+.fondoCoral {
+  background-color: #FE6960;
+}
+
+/* line 150, ../../Desktop/shewolf2/scss/scss.scss */
+.padreFlex {
+  display: flex;
+}
+
+/* line 155, ../../Desktop/shewolf2/scss/scss.scss */
+.video {
+  position: relative;
+  left: 840px;
+}
+
+/* estilos en menu */
+/* line 161, ../../Desktop/shewolf2/scss/scss.scss */
+.menuestilo {
+  display: flex;
+  width: 18%;
+  position: relative;
+}
+
+/* line 167, ../../Desktop/shewolf2/scss/scss.scss */
+a {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* line 176, ../../Desktop/shewolf2/scss/scss.scss */
+a:hover {
+  font-size: 24px;
+  color: #f75973;
+  transition: all 2s;
+}
+
+/* estilos en servicios */
+/* line 189, ../../Desktop/shewolf2/scss/scss.scss */
+.estiloProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 1px #f8a09c;
+  padding: 5px;
+}
+
+/* line 199, ../../Desktop/shewolf2/scss/scss.scss */
+.zoom {
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
+
+/* line 203, ../../Desktop/shewolf2/scss/scss.scss */
+.zoom:hover {
+  height: 20px;
+  width: 200px;
+  background-color: whitesmoke;
+}
+
+/*# sourceMappingURL=scss.css.map */
