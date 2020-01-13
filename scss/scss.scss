@@ -4,14 +4,14 @@
 
 /* Estilos títulos */
 h1{
-    color: whitesmoke;
+    color: #AB987A;
     font-family: 'Pacifico';
     font-size: 50px;
     text-align: center;
 }
 
 $fuente-textos: 'Acme';
-$main-color: rgb(247, 89, 115);
+$main-color: #FF533D;
 
 
 h2{
@@ -49,7 +49,7 @@ h2{
 
 
 .parrafo{
-    color: rgb(247, 89, 115);
+    color:#FF533D;
     font-family: 'Acme';
     font-size: 35px;
     margin-top: 200 px;
@@ -92,9 +92,9 @@ main{
     
 }
 footer{
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     font-family: "Acme";
-    color: rgb(247, 89, 115) ;
+    color: #FF533D ;
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
