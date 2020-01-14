@@ -1,28 +1,24 @@
 @charset "UTF-8";
-/* line 1, ../../Desktop/shewolf2/scss/scss.scss */
 .fondo {
-  background-color: #0f1626;
+  background-color: #212F3D;
 }
 
 /* Estilos Menú */
 /* Estilos títulos */
-/* line 7, ../../Desktop/shewolf2/scss/scss.scss */
 h1 {
-  color: #AB987A;
+  color: #ff6163;
   font-family: 'Pacifico';
   font-size: 50px;
   text-align: center;
 }
 
-/* line 18, ../../Desktop/shewolf2/scss/scss.scss */
 h2 {
-  color: #FF533D;
+  color: #14ffa7;
   font-family: 'Acme';
   font-size: 25px;
   text-align: center;
 }
 
-/* line 25, ../../Desktop/shewolf2/scss/scss.scss */
 .grilla {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -30,7 +26,6 @@ h2 {
   grid-template-rows: 80px auto 80px;
 }
 
-/* line 34, ../../Desktop/shewolf2/scss/scss.scss */
 .grillaServ {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -38,7 +33,6 @@ h2 {
   grid-row-gap: 1em;
 }
 
-/* line 39, ../../Desktop/shewolf2/scss/scss.scss */
 .grillaServ div {
   font-size: 18px;
   color: whitesmoke;
@@ -46,7 +40,6 @@ h2 {
   background-color: #f75973;
 }
 
-/* line 52, ../../Desktop/shewolf2/scss/scss.scss */
 .parrafo {
   color: #FF533D;
   font-family: 'Acme';
@@ -54,7 +47,6 @@ h2 {
   margin-top: 200 px;
 }
 
-/* line 61, ../../Desktop/shewolf2/scss/scss.scss */
 .padreFlex {
   display: flex;
   position: absolute;
@@ -62,130 +54,32 @@ h2 {
   margin-left: 1100px;
 }
 
-/* line 70, ../../Desktop/shewolf2/scss/scss.scss */
 .logo {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-/* line 76, ../../Desktop/shewolf2/scss/scss.scss */
 header {
   position: relative;
 }
 
-/* line 80, ../../Desktop/shewolf2/scss/scss.scss */
 main {
   justify-content: center;
   margin-left: 200px;
 }
 
-/* line 85, ../../Desktop/shewolf2/scss/scss.scss */
 .imagen {
   display: flex;
   justify-content: flex-end;
 }
 
-/* line 91, ../../Desktop/shewolf2/scss/scss.scss */
-.animacionP {
-  transform: translate(25px);
-}
-
-/* line 95, ../../Desktop/shewolf2/scss/scss.scss */
 footer {
-  background-color: #F5F5F5;
+  background-color: #14ffa7;
   font-family: "Acme";
-  color: #FF533D;
+  color: #212F3D;
   font-size: 20px;
   margin-top: 20px;
   text-align: center;
   padding: 20px;
 }
-
-/* line 109, ../../Desktop/shewolf2/scss/scss.scss */
-.colorNaranja {
-  color: orangered;
-}
-
-/* line 113, ../../Desktop/shewolf2/scss/scss.scss */
-ul li {
-  color: cyan;
-}
-
-/* line 117, ../../Desktop/shewolf2/scss/scss.scss */
-.tamañoTitulo {
-  font-size: 40px;
-}
-
-/* line 121, ../../Desktop/shewolf2/scss/scss.scss */
-.impact {
-  font-family: Impact, sans-serif;
-}
-
-/* line 125, ../../Desktop/shewolf2/scss/scss.scss */
-.georgia {
-  font-family: Georgia, serif;
-}
-
-/* line 129, ../../Desktop/shewolf2/scss/scss.scss */
-.centrado {
-  text-align: center;
-}
-
-/* line 133, ../../Desktop/shewolf2/scss/scss.scss */
-.negrita {
-  font-weight: bold;
-}
-
-/* line 137, ../../Desktop/shewolf2/scss/scss.scss */
-.espaciado {
-  letter-spacing: 2px;
-}
-
-/* line 141, ../../Desktop/shewolf2/scss/scss.scss */
-.fondoAmarillo {
-  background-color: #FEFAC2;
-}
-
-/* line 145, ../../Desktop/shewolf2/scss/scss.scss */
-.fondoCoral {
-  background-color: #FE6960;
-}
-
-/* line 151, ../../Desktop/shewolf2/scss/scss.scss */
-.padreFlex {
-  display: flex;
-}
-
-/* line 156, ../../Desktop/shewolf2/scss/scss.scss */
-.video {
-  position: relative;
-  left: 840px;
-}
-
-/* estilos en servicios */
-/* line 169, ../../Desktop/shewolf2/scss/scss.scss */
-.estiloProductos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: white;
-  border: 1px #f8a09c;
-  padding: 5px;
-}
-
-/* line 179, ../../Desktop/shewolf2/scss/scss.scss */
-.zoom {
-  width: 100px;
-  height: 100px;
-  transition: all 2s;
-}
-
-/* line 183, ../../Desktop/shewolf2/scss/scss.scss */
-.zoom:hover {
-  height: 20px;
-  width: 200px;
-  background-color: whitesmoke;
-}
-
-/*# sourceMappingURL=scss.css.map */

@@ -5,14 +5,14 @@
 
 /* Estilos títulos */
 h1{
-    color: #AB987A;
+    color:#ff6163;
     font-family: 'Pacifico';
     font-size: 50px;
     text-align: center;
 }
 
 $fuente-textos: 'Acme';
-$main-color: #FF533D;
+$main-color: #14ffa7;
 
 
 h2{
@@ -85,15 +85,12 @@ main{
 .imagen{
     display: flex;
     justify-content: flex-end;
-
 }
 
-    
-}
 footer{
-    background-color: #F5F5F5;
+    background-color: #14ffa7;
     font-family: "Acme";
-    color: #FF533D ;
+    color: #212F3D;
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
