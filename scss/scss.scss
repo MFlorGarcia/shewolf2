@@ -1,5 +1,5 @@
 .fondo{
-    background-color:#0f1626 ;
+    background-color:#212F3D ;
 }
 /* Estilos Menú */
 
@@ -88,8 +88,6 @@ main{
 
 }
 
-.animacionP{
-    transform: translate(25px);
     
 }
 footer{
@@ -106,84 +104,3 @@ footer{
 
 
 
-.colorNaranja{
-    color:orangered
-}
-
-ul li{
-    color:cyan
-}
-
-.tamañoTitulo{
-    font-size:40px;
-}
-
-.impact{
-    font-family: Impact, sans-serif;
-}
-
-.georgia{
-    font-family: Georgia, serif;
-}
-
-.centrado{
-    text-align: center;
-}
-
-.negrita{
-    font-weight: bold;
-}
-
-.espaciado{
-    letter-spacing: 2px;
-}
-
-.fondoAmarillo{
-    background-color: #FEFAC2;
-}
-
-.fondoCoral{
-    background-color: #FE6960;
-}
-
-
-
-.padreFlex{
-    display: flex;
-
-}
-
-.video{
-    position: relative;
-    left: 840px
-}
-
-
-
-        
-  
-
-
-  /* estilos en servicios */
-
-  .estiloProductos{
-      display: flex;
-
-      flex-direction: row;
-      flex-wrap: wrap;
-      background-color: white;
-      border: 1px rgb(248, 160, 156);
-      padding: 5px; 
-  }
-
-  .zoom {
-    width: 100px; height: 100px;
-    transition: all 2s;       
- }
- .zoom:hover {
-    height: 20px; width: 200px;
-    
-    background-color: whitesmoke;      
- }
- 
- 
