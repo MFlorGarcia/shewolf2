@@ -1,19 +1,19 @@
 @charset "UTF-8";
 .fondo {
-  background-color: #212F3D;
+  background-color: #666666;
 }
 
 /* Estilos Menú */
 /* Estilos títulos */
 h1 {
-  color: #ff6163;
+  color: #CCFF00;
   font-family: 'Pacifico';
   font-size: 50px;
   text-align: center;
 }
 
 h2 {
-  color: #14ffa7;
+  color: #CDD7B6;
   font-family: 'Acme';
   font-size: 25px;
   text-align: center;
